@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Проекты Visual Studio Code\\Labs\\Lab_1\\lab_1.csproj",
+      "projectUniqueName": "C:\\Проекты Visual Studio Code\\KFU\\Labs\\Lab_1\\lab_1.csproj",
       "projectName": "lab_1",
-      "projectPath": "C:\\Проекты Visual Studio Code\\Labs\\Lab_1\\lab_1.csproj",
+      "projectPath": "C:\\Проекты Visual Studio Code\\KFU\\Labs\\Lab_1\\lab_1.csproj",
       "packagesPath": "C:\\Users\\динар\\.nuget\\packages\\",
-      "outputPath": "C:\\Проекты Visual Studio Code\\Labs\\Lab_1\\obj\\",
+      "outputPath": "C:\\Проекты Visual Studio Code\\KFU\\Labs\\Lab_1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
