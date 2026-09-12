@@ -1,109 +1,170 @@
-﻿
-// Console.Write("Введите число от 1 до 7: ");
-// int d = int.Parse(Console.ReadLine());
+﻿// Главное меню
+Console.WriteLine("Меню");
+Console.WriteLine("1 - День недели");
+Console.WriteLine("2 - Проверка года");
+Console.WriteLine("3 - Калькулятор");
+Console.WriteLine("4 - Квадратное уравнение");
+Console.Write("Выберите пункт (1-4): ");
 
-// string N;
+    if (!int.TryParse(Console.ReadLine(), out int choice))
+    {
+        Console.WriteLine("Ошибка: нужно ввести число.");
+        return;
+    }
 
-// switch (d)
-// {
-//     case 1: N = "Понедельник"; break;
-//     case 2: N = "Вторник"; break;
-//     case 3: N = "Среда"; break;
-//     case 4: N = "Четверг"; break;
-//     case 5: N = "Пятница"; break;
-//     case 6: N = "Суббота"; break;
-//     case 7: N = "Воскресенье"; break;
-//     default: N = "Некорректное число"; break;
-// }
+    switch (choice)
+    {
+        case 1: TaskDayOfWeek(); break;
+        case 2: TaskLeapYear(); break;
+        case 3: TaskCalculator(); break;
+        case 4: TaskQuadraticEquation(); break;
+        default: Console.WriteLine("Такого пункта меню нет."); break;
+    }
 
-// Console.WriteLine(N);
+    //ЗАДАНИЕ 1
+static void TaskDayOfWeek()
+{
+    Console.Write("\nВведите число от 1 до 7: ");
+    if (!int.TryParse(Console.ReadLine(), out int dayNum))
+    {
+        Console.WriteLine("Ошибка ввода.");
+        return;
+    }
 
-// Console.Write("Введите год: ");
-// int year = int.Parse(Console.ReadLine());
+    string dayName;
+    switch (dayNum)
+    {
+        case 1: dayName = "Понедельник"; break;
+        case 2: dayName = "Вторник"; break;
+        case 3: dayName = "Среда"; break;
+        case 4: dayName = "Четверг"; break;
+        case 5: dayName = "Пятница"; break;
+        case 6: dayName = "Суббота"; break;
+        case 7: dayName = "Воскресенье"; break;
+        default: dayName = "Некорректное число"; break;
+    }
+    Console.WriteLine(dayName);
+}
 
-// if ((year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0)))
-// {
-//     Console.WriteLine("Год високосный");
-// }
-// else
-// {
-//     Console.WriteLine("Год не високосный");
-// }
+//ЗАДАНИЕ 2
+static void TaskLeapYear()
+{
+    Console.Write("\nВведите год: ");
+    if (!int.TryParse(Console.ReadLine(), out int yearVal))
+    {
+        Console.WriteLine("Ошибка ввода.");
+        return;
+    }
 
-// Console.Write("Введите первое число: ");
-// int a = int.Parse(Console.ReadLine());
+    if ((yearVal % 400 == 0) || ((yearVal % 4 == 0) && (yearVal % 100 != 0)))
+    {
+        Console.WriteLine("Год високосный");
+    }
+    else
+    {
+        Console.WriteLine("Год не високосный");
+    }
+}
 
-// Console.Write("Введите второе число: ");
-// int b = int.Parse(Console.ReadLine());
+//ЗАДАНИЕ 3
+static void TaskCalculator()
+{
+    Console.Write("\nПервое число: ");
+    if (!double.TryParse(Console.ReadLine(), out double num1))
+    {
+        Console.WriteLine("Ошибка ввода первого числа.");
+        return;
+    }
 
-// Console.Write("Меню: \n1 - Сложить \n2 - Вычесть \n3 - Умножить \n4 - Разделить\n");
-// int num = int.Parse(Console.ReadLine());
+    Console.Write("Второе число: ");
+    if (!double.TryParse(Console.ReadLine(), out double num2))
+    {
+        Console.WriteLine("Ошибка ввода второго числа.");
+        return;
+    }
 
-// int sum = 0;
+    Console.WriteLine("Меню:\n1 - Сложить\n2 - Вычесть\n3 - Умножить\n4 - Разделить");
+    Console.Write("Действие (1-4): ");
+        
+    if (!int.TryParse(Console.ReadLine(), out int action))
+    {
+        Console.WriteLine("Ошибка выбора действия.");
+        return;
+    }
 
-// switch (num)
-// {
-//     case 1: Console.WriteLine(sum = a + b); break;
-//     case 2: Console.WriteLine(sum = a - b); break;
-//     case 3: Console.WriteLine(sum = a * b); break;
-//     case 4: 
-//     if (b != 0) 
-//         {
-//         Console.WriteLine(sum = a / b);
-//         }
-//         else
-//         {
-//             Console.WriteLine("Деление на ноль");
-//         }
-//         ; break;
-//     default: Console.WriteLine("Ошибка"); break;
-// }
+    double result = 0;
+    bool success = true;
 
-Console.Write("Введите коэффициент a: ");
-    if (!double.TryParse(Console.ReadLine(), out double a))
+    switch (action)
+    {
+        case 1: result = num1 + num2; break;
+        case 2: result = num1 - num2; break;
+        case 3: result = num1 * num2; break;
+        case 4:
+            if (num2 != 0)
+                result = num1 / num2;
+            else
+            {
+                Console.WriteLine("Ошибка: деление на ноль!");
+                success = false;
+            }
+            break;
+        default:
+            Console.WriteLine("Неизвестная операция.");
+            success = false;
+            break;
+    }
+
+    if (success)
+        Console.WriteLine($"Результат: {result}");
+}
+
+//ЗАДАНИЕ 4
+static void TaskQuadraticEquation()
+{
+    Console.Write("\nВведите a: ");
+    if (!double.TryParse(Console.ReadLine(), out double coefA))
     {
         Console.WriteLine("Ошибка ввода a.");
         return;
     }
 
-Console.Write("Введите коэффициент b: ");
-    if (!double.TryParse(Console.ReadLine(), out double b))
+    Console.Write("Введите b: ");
+    if (!double.TryParse(Console.ReadLine(), out double coefB))
     {
         Console.WriteLine("Ошибка ввода b.");
         return;
     }
 
-Console.Write("Введите коэффициент c: ");
-    if (!double.TryParse(Console.ReadLine(), out double c))
+    Console.Write("Введите c: ");
+    if (!double.TryParse(Console.ReadLine(), out double coefC))
     {
         Console.WriteLine("Ошибка ввода c.");
         return;
     }
 
-    if (a == 0)
+    if (coefA == 0)
     {
-        Console.WriteLine("Коэффициент 'a' не может быть равен 0 (это не квадратное уравнение).");
+        Console.WriteLine("Ошибка: 'a' не может быть равно 0.");
         return;
     }
 
-double D = b * b - 4 * a * c;
-Console.WriteLine($"Дискриминант D = {D}");
+    double discriminant = coefB * coefB - 4 * coefA * coefC;
+    Console.WriteLine($"Дискриминант D = {discriminant}");
 
-    if (D > 0)
+    if (discriminant > 0)
     {
-        double x1 = (-b + Math.Sqrt(D)) / (2 * a);
-        double x2 = (-b - Math.Sqrt(D)) / (2 * a);
-        Console.WriteLine($"Уравнение имеет два корня:");
-        Console.WriteLine($"x1 = {x1}");
-        Console.WriteLine($"x2 = {x2}");
+        double x1 = (-coefB + Math.Sqrt(discriminant)) / (2 * coefA);
+        double x2 = (-coefB - Math.Sqrt(discriminant)) / (2 * coefA);
+        Console.WriteLine($"Два корня: x1 = {x1}, x2 = {x2}");
     }
-    else if (D == 0)
+    else if (discriminant == 0)
     {
-        double x = -b / (2 * a);
-        Console.WriteLine($"Уравнение имеет один корень:");
-        Console.WriteLine($"x = {x}");
+    double x = -coefB / (2 * coefA);
+        Console.WriteLine($"Один корень: x = {x}");
     }
-    else 
+    else
     {
-        Console.WriteLine("Действительных корней нет (D < 0).");
+        Console.WriteLine("Действительных корней нет.");
     }
+}
