@@ -18,14 +18,34 @@
 
 // Console.WriteLine(N);
 
-Console.Write("Введите год: ");
-int year = int.Parse(Console.ReadLine());
+// Console.Write("Введите год: ");
+// int year = int.Parse(Console.ReadLine());
 
-if ((year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0)))
+// if ((year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0)))
+// {
+//     Console.WriteLine("Год високосный");
+// }
+// else
+// {
+//     Console.WriteLine("Год не високосный");
+// }
+
+Console.Write("Меню: \n1 - Сложить \n2 - Вычесть \n3 - Умножить \n4 - Разделить\n");
+int num = int.Parse(Console.ReadLine());
+
+Console.Write("Введите первое число: ");
+int a = int.Parse(Console.ReadLine());
+
+Console.Write("Введите второе число: ");
+int b = int.Parse(Console.ReadLine());
+
+int sum = 0;
+
+switch (num)
 {
-    Console.WriteLine("Год високосный");
-}
-else
-{
-    Console.WriteLine("Год не високосный");
+    case 1: Console.WriteLine(sum = a + b); break;
+    case 2: Console.WriteLine(sum = a - b); break;
+    case 3: Console.WriteLine(sum = a * b); break;
+    case 4: Console.WriteLine(sum = a / b); break;
+    default: Console.WriteLine("Ошибка"); break;
 }
