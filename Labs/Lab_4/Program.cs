@@ -127,17 +127,17 @@ switch (choice)
         break;
 }
 
-static void SayHello()
+void SayHello()
 {
     Console.WriteLine("Привет, студент!");
 }
 
-static int Square(int x)
+int Square(int x)
 {
     return x * x;
 }
 
-static double Average(params double[] numbers)
+double Average(params double[] numbers)
 {
     if (numbers.Length == 0)
         throw new ArgumentException("Массив не должен быть пустым");
@@ -149,7 +149,7 @@ static double Average(params double[] numbers)
     return sum / numbers.Length;
 }
 
-static double Calculate(double a, double b, char op)
+double Calculate(double a, double b, char op)
 {
     switch (op)
     {
@@ -165,7 +165,7 @@ static double Calculate(double a, double b, char op)
     }
 }
 
-static void MinMax(int[] arr, out int min, out int max)
+void MinMax(int[] arr, out int min, out int max)
 {
     if (arr == null || arr.Length == 0)
         throw new ArgumentException("Массив не должен быть пустым");
