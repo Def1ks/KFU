@@ -161,7 +161,7 @@ static double Calculate(double a, double b, char op)
                 throw new DivideByZeroException("Деление на ноль невозможно!");
             return a / b;
         default:
-            throw new ArgumentException($"Неизвестный оператор: '{op}'");
+            throw new ArgumentException($"Неизвестный оператор:  '{op}'");
     }
 }
 
