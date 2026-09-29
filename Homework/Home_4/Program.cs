@@ -22,7 +22,7 @@ int.TryParse(menuInput, out int choice);
             break;
     }
 
-static void ShowMenu()
+void ShowMenu()
 {
     Console.WriteLine("Меню задач:");
     Console.WriteLine("1. Поиск индекса в отсортированном массиве");
@@ -32,7 +32,7 @@ static void ShowMenu()
     Console.Write("Выберите задачу (1-4): ");
 }
 
-static void TaskSearchIndex()
+void TaskSearchIndex()
 {
     int[] arr = { 1, 3, 5, 6 };
     
@@ -45,7 +45,7 @@ static void TaskSearchIndex()
     Console.WriteLine("Индекс: " + index);
 }
 
-static int FindInsertIndex(int[] arr, int target)
+int FindInsertIndex(int[] arr, int target)
 {
     for (int i = 0; i < arr.Length; i++)
     {
@@ -61,7 +61,7 @@ static int FindInsertIndex(int[] arr, int target)
     return arr.Length;
 }
 
-static void TaskGCD()
+void TaskGCD()
 {
     Console.Write("Введите первое число (a): ");
     string aInput = Console.ReadLine();
@@ -75,7 +75,7 @@ static void TaskGCD()
     Console.WriteLine("НОД равен: " + gcd);
 }
 
-static int CalculateGCD(int a, int b)
+int CalculateGCD(int a, int b)
 {
     while (b != 0)
     {
@@ -86,7 +86,7 @@ static int CalculateGCD(int a, int b)
     return a;
 }
 
-static void TaskPerfectNumber()
+void TaskPerfectNumber()
 {
     Console.Write("Введите число для проверки: ");
     string numInput = Console.ReadLine();
@@ -104,7 +104,7 @@ static void TaskPerfectNumber()
     }
 }
 
-static bool IsPerfectNumber(int number)
+bool IsPerfectNumber(int number)
 {
     int sumDivisors = 0;
     for (int i = 1; i < number; i++)
@@ -117,7 +117,7 @@ static bool IsPerfectNumber(int number)
     return sumDivisors == number;
 }
 
-static void TaskMultiplicationTable()
+void TaskMultiplicationTable()
 {
     Console.Write("Для какого числа вывести таблицу? ");
     string tableInput = Console.ReadLine();
@@ -126,7 +126,7 @@ static void TaskMultiplicationTable()
     PrintMultiplicationTable(n);
 }
 
-static void PrintMultiplicationTable(int n)
+void PrintMultiplicationTable(int n)
 {
     Console.WriteLine("Таблица умножения для " + n + ":");
     for (int i = 1; i <= 10; i++)
