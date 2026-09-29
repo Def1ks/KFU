@@ -1,9 +1,7 @@
-﻿static void Main()
-{
-    ShowMenu();
+﻿ShowMenu();
     
-    string menuInput = Console.ReadLine();
-    int.TryParse(menuInput, out int choice);
+string menuInput = Console.ReadLine();
+int.TryParse(menuInput, out int choice);
 
     switch (choice)
     {
@@ -23,7 +21,6 @@
             Console.WriteLine("Неверный номер задачи.");
             break;
     }
-}
 
 static void ShowMenu()
 {
