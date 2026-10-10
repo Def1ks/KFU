@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B Visual Studio Code\\KFU\\Labs\\Lab_5\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B7EF0FA-E06B-4185-A39C-187768755275}|ConsoleApp1\\ConsoleApp1.csproj|c:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B visual studio code\\kfu\\labs\\lab_5\\consoleapp1\\consoleapp1\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B7EF0FA-E06B-4185-A39C-187768755275}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B7EF0FA-E06B-4185-A39C-187768755275}|ConsoleApp1\\ConsoleApp1.csproj|c:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B visual studio code\\kfu\\labs\\lab_5\\consoleapp1\\consoleapp1\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B7EF0FA-E06B-4185-A39C-187768755275}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B7EF0FA-E06B-4185-A39C-187768755275}|ConsoleApp1\\ConsoleApp1.csproj|c:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B visual studio code\\kfu\\labs\\lab_5\\consoleapp1\\consoleapp1\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B7EF0FA-E06B-4185-A39C-187768755275}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B7EF0FA-E06B-4185-A39C-187768755275}|ConsoleApp1\\ConsoleApp1.csproj|c:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B visual studio code\\kfu\\labs\\lab_5\\consoleapp1\\consoleapp1\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B7EF0FA-E06B-4185-A39C-187768755275}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B7EF0FA-E06B-4185-A39C-187768755275}|ConsoleApp1\\ConsoleApp1.csproj|c:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B visual studio code\\kfu\\labs\\lab_5\\consoleapp1\\consoleapp1\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B7EF0FA-E06B-4185-A39C-187768755275}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B7EF0FA-E06B-4185-A39C-187768755275}|ConsoleApp1\\ConsoleApp1.csproj|c:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B visual studio code\\kfu\\labs\\lab_5\\consoleapp1\\consoleapp1\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B7EF0FA-E06B-4185-A39C-187768755275}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B7EF0FA-E06B-4185-A39C-187768755275}|ConsoleApp1\\ConsoleApp1.csproj|c:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B visual studio code\\kfu\\labs\\lab_5\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B7EF0FA-E06B-4185-A39C-187768755275}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BankAccount.cs",
+              "DocumentMoniker": "C:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B Visual Studio Code\\KFU\\Labs\\Lab_5\\ConsoleApp1\\ConsoleApp1\\BankAccount.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\BankAccount.cs",
+              "ToolTip": "C:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B Visual Studio Code\\KFU\\Labs\\Lab_5\\ConsoleApp1\\ConsoleApp1\\BankAccount.cs",
+              "RelativeToolTip": "ConsoleApp1\\BankAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T12:43:32.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Rectangle.cs",
+              "DocumentMoniker": "C:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B Visual Studio Code\\KFU\\Labs\\Lab_5\\ConsoleApp1\\ConsoleApp1\\Rectangle.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Rectangle.cs",
+              "ToolTip": "C:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B Visual Studio Code\\KFU\\Labs\\Lab_5\\ConsoleApp1\\ConsoleApp1\\Rectangle.cs",
+              "RelativeToolTip": "ConsoleApp1\\Rectangle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T12:42:57.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Point.cs",
+              "DocumentMoniker": "C:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B Visual Studio Code\\KFU\\Labs\\Lab_5\\ConsoleApp1\\ConsoleApp1\\Point.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Point.cs",
+              "ToolTip": "C:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B Visual Studio Code\\KFU\\Labs\\Lab_5\\ConsoleApp1\\ConsoleApp1\\Point.cs",
+              "RelativeToolTip": "ConsoleApp1\\Point.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T12:40:50.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B Visual Studio Code\\KFU\\Labs\\Lab_5\\ConsoleApp1\\ConsoleApp1\\Book.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Book.cs",
+              "ToolTip": "C:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B Visual Studio Code\\KFU\\Labs\\Lab_5\\ConsoleApp1\\ConsoleApp1\\Book.cs",
+              "RelativeToolTip": "ConsoleApp1\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T12:38:32.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B Visual Studio Code\\KFU\\Labs\\Lab_5\\ConsoleApp1\\ConsoleApp1\\Person.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Person.cs",
+              "ToolTip": "C:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B Visual Studio Code\\KFU\\Labs\\Lab_5\\ConsoleApp1\\ConsoleApp1\\Person.cs",
+              "RelativeToolTip": "ConsoleApp1\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T12:37:48.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B Visual Studio Code\\KFU\\Labs\\Lab_5\\ConsoleApp1\\ConsoleApp1\\Student.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Student.cs",
+              "ToolTip": "C:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B Visual Studio Code\\KFU\\Labs\\Lab_5\\ConsoleApp1\\ConsoleApp1\\Student.cs",
+              "RelativeToolTip": "ConsoleApp1\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T12:33:40.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B Visual Studio Code\\KFU\\Labs\\Lab_5\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B Visual Studio Code\\KFU\\Labs\\Lab_5\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T12:25:30.498Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Выберите задание (1-5) или 0 для выхода:");
+﻿while(true) {
+Console.WriteLine("Выберите задание (1-5) или 0 для выхода:");
 Console.WriteLine("1. SayHello");
 Console.WriteLine("2. Square");
 Console.WriteLine("3. Average");
@@ -125,6 +126,10 @@ switch (choice)
     default:
         Console.WriteLine("Неверный выбор!");
         break;
+}
+Console.WriteLine("Нажмите любую кнопку для перезапуска программы");
+Console.ReadKey();
+Console.Clear();
 }
 
 void SayHello()
