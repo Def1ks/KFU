@@ -6,77 +6,45 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8; 
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-            // Задача 1
-            Console.WriteLine("ЗАДАЧА 1: Student");
-            Student student = new Student();
-            student.Name = "Иван";
-            student.Age = 20;
-            student.Print();
-            Console.WriteLine();
+            var dev = new Student();
+            dev.Name = "Dinar";
+            dev.Age = 22;
+            dev.Print();
 
-            // Задача 2
-            Console.WriteLine("ЗАДАЧА 2: Person");
-            Person person = new Person("Мария", 25);
-            person.Print();
-            Console.WriteLine();
+            var admin = new Person("Root", 99);
+            admin.Print();
 
-            // Задача 3
-            Console.WriteLine("ЗАДАЧА 3: Book");
-            Book book1 = new Book();
-            Book book2 = new Book("C# для начинающих");
-            book1.Print();
-            book2.Print();
-            Console.WriteLine();
+            var doc1 = new Book();              
+            var doc2 = new Book("API_Design");  
+            doc1.Print();
+            doc2.Print();
 
-            // Задача 4
-            Console.WriteLine("ЗАДАЧА 4: Ссылки на объект");
-            Person p1 = new Person("Алексей", 30);
-            Person p2 = p1;
-            Console.WriteLine("До изменения:");
-            p1.Print();
-            p2.Print();
+            var user1 = new Person("Alex", 25);
+            var user2 = user1;
+            user2.Name = "Admin_Alex";
 
-            p2.Name = "Дмитрий";
-            Console.WriteLine("После изменения через p2:");
-            p1.Print();
-            p2.Print();
-            Console.WriteLine();
+            Console.WriteLine($"user1: {user1.Name}"); 
+            Console.WriteLine($"user2: {user2.Name}");
 
-            // Задача 5
-            Console.WriteLine("ЗАДАЧА 5: Struct Point");
-            Point point1 = new Point(10, 20);
-            Point point2 = point1;
+            var pt1 = new Point(0, 0);
+            var pt2 = pt1;
+            pt2.X = 100;
 
-            Console.Write("Оригинал: "); point1.Print();
-            Console.Write("Копия до изменения: "); point2.Print();
+            Console.WriteLine($"pt1: ({pt1.X}, {pt1.Y})"); 
+            Console.WriteLine($"pt2: ({pt2.X}, {pt2.Y})"); 
 
-            point2.X = 99;
-            point2.Y = 88;
+            var screen = new Rectangle(1920, 1080);
+            Console.WriteLine($"Разрешение: {screen.Width}x{screen.Height}");
+            Console.WriteLine($"Площадь пикселей: {screen.GetArea()}");
 
-            Console.Write("Копия после изменения: "); point2.Print();
-            Console.Write("Оригинал (не изменился): "); point1.Print();
-            Console.WriteLine();
+            var wallet = new BankAccount("Main_Salary", 50000);
+            wallet.Deposit(15000);   
+            wallet.Withdraw(20000);  
+            wallet.Withdraw(999999); 
+            wallet.Print();          
 
-            // Задача 6
-            Console.WriteLine("ЗАДАЧА 6: Rectangle");
-            Rectangle rect = new Rectangle(5.5, 3.2);
-            rect.Print();
-            Console.WriteLine($"Площадь через GetArea(): {rect.GetArea()}");
-            Console.WriteLine();
-
-            // Задача 7
-            Console.WriteLine(" ЗАДАЧА 7: BankAccount");
-            BankAccount account = new BankAccount("Иван Петров", 1000);
-            account.Print();
-            account.Deposit(500);
-            account.Withdraw(300);
-            account.Withdraw(5000);
-            account.Print();
-            Console.WriteLine();
-
-            Console.WriteLine("Все задачи выполнены!");
             Console.ReadKey();
         }
     }
