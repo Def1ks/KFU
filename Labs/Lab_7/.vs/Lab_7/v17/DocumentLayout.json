@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B Visual Studio Code\\KFU\\Labs\\Lab_7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE5B532-6201-45FF-BC67-C74A8F9EEB79}|Lab_7.csproj|c:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B visual studio code\\kfu\\labs\\lab_7\\lab_7_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE5B532-6201-45FF-BC67-C74A8F9EEB79}|Lab_7.csproj|solutionrelative:lab_7_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE5B532-6201-45FF-BC67-C74A8F9EEB79}|Lab_7.csproj|c:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B visual studio code\\kfu\\labs\\lab_7\\arithmetictasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE5B532-6201-45FF-BC67-C74A8F9EEB79}|Lab_7.csproj|solutionrelative:arithmetictasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE5B532-6201-45FF-BC67-C74A8F9EEB79}|Lab_7.csproj|c:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B visual studio code\\kfu\\labs\\lab_7\\stringtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE5B532-6201-45FF-BC67-C74A8F9EEB79}|Lab_7.csproj|solutionrelative:stringtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE5B532-6201-45FF-BC67-C74A8F9EEB79}|Lab_7.csproj|c:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B visual studio code\\kfu\\labs\\lab_7\\binarytasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE5B532-6201-45FF-BC67-C74A8F9EEB79}|Lab_7.csproj|solutionrelative:binarytasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE5B532-6201-45FF-BC67-C74A8F9EEB79}|Lab_7.csproj|c:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B visual studio code\\kfu\\labs\\lab_7\\recursiontasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE5B532-6201-45FF-BC67-C74A8F9EEB79}|Lab_7.csproj|solutionrelative:recursiontasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE5B532-6201-45FF-BC67-C74A8F9EEB79}|Lab_7.csproj|c:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B visual studio code\\kfu\\labs\\lab_7\\matrixtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE5B532-6201-45FF-BC67-C74A8F9EEB79}|Lab_7.csproj|solutionrelative:matrixtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MatrixTasks.cs",
+              "DocumentMoniker": "C:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B Visual Studio Code\\KFU\\Labs\\Lab_7\\MatrixTasks.cs",
+              "RelativeDocumentMoniker": "MatrixTasks.cs",
+              "ToolTip": "C:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B Visual Studio Code\\KFU\\Labs\\Lab_7\\MatrixTasks.cs",
+              "RelativeToolTip": "MatrixTasks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T13:22:12.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BinaryTasks.cs",
+              "DocumentMoniker": "C:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B Visual Studio Code\\KFU\\Labs\\Lab_7\\BinaryTasks.cs",
+              "RelativeDocumentMoniker": "BinaryTasks.cs",
+              "ToolTip": "C:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B Visual Studio Code\\KFU\\Labs\\Lab_7\\BinaryTasks.cs",
+              "RelativeToolTip": "BinaryTasks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T13:21:53.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RecursionTasks.cs",
+              "DocumentMoniker": "C:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B Visual Studio Code\\KFU\\Labs\\Lab_7\\RecursionTasks.cs",
+              "RelativeDocumentMoniker": "RecursionTasks.cs",
+              "ToolTip": "C:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B Visual Studio Code\\KFU\\Labs\\Lab_7\\RecursionTasks.cs",
+              "RelativeToolTip": "RecursionTasks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T13:21:38.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StringTasks.cs",
+              "DocumentMoniker": "C:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B Visual Studio Code\\KFU\\Labs\\Lab_7\\StringTasks.cs",
+              "RelativeDocumentMoniker": "StringTasks.cs",
+              "ToolTip": "C:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B Visual Studio Code\\KFU\\Labs\\Lab_7\\StringTasks.cs",
+              "RelativeToolTip": "StringTasks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T13:21:20.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ArithmeticTasks.cs",
+              "DocumentMoniker": "C:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B Visual Studio Code\\KFU\\Labs\\Lab_7\\ArithmeticTasks.cs",
+              "RelativeDocumentMoniker": "ArithmeticTasks.cs",
+              "ToolTip": "C:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B Visual Studio Code\\KFU\\Labs\\Lab_7\\ArithmeticTasks.cs",
+              "RelativeToolTip": "ArithmeticTasks.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAgwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T13:18:28.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lab_7_1.cs",
+              "DocumentMoniker": "C:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B Visual Studio Code\\KFU\\Labs\\Lab_7\\Lab_7_1.cs",
+              "RelativeDocumentMoniker": "Lab_7_1.cs",
+              "ToolTip": "C:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B Visual Studio Code\\KFU\\Labs\\Lab_7\\Lab_7_1.cs",
+              "RelativeToolTip": "Lab_7_1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T13:16:02.887Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
